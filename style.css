@@ -1,0 +1,158 @@
+
+/* blog section cssss */
+.blog-title-head{}
+.blog-title-head h6{
+    color: #5f81ef;
+}
+.blog-title-head h2{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+}
+.blog-title-head h2::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 15%;
+    background-color: #5f81ef;
+    left: 0;
+    bottom: -25px; 
+}
+
+/* Products Section */
+.img-box img{
+    max-width: 100%;
+    width: 100%;
+}
+.img-box{
+    transition: .6s;
+    width: 33%;
+}
+.img-box:hover{
+    background-color: #f6f9fc;
+}
+.prouducts-section {
+    display: flex;
+    
+    
+    
+}
+/* ************** */
+.blog-title h6{
+    color: #5f81ef;
+}
+
+.blog-title p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blog-title h2 {
+    position: relative;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.blog-title h2::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 5%;
+    background-color: blue;
+    left: 47%;
+    bottom: -25px;
+}
+
+.blog-items h5{
+    font-weight: 700;
+}
+
+.blog-items p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blog-items{
+    position: relative;
+}
+.blog-items::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: 198px;
+    right: 38%;
+    background: url(./author.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.blog-items::before {
+    content: "BY TIM NORTON";
+    position: absolute;
+    height: 45px;
+    width: 166px;
+    border-radius: 25px;
+    bottom: 46%;
+    right: 5%;
+    background: #3a63ea;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: right;
+    color: #fff;
+    padding-right: 13px;
+}
+
+
+/*      contact section cssss     */
+
+.contact{
+    background-color: #101e2c;
+}
+
+.contact p{
+    color: #b9bdc1;
+    font-weight: 500;
+}
+
+.contact ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.contact ul li i{
+    color: #b9bdc1;
+    font-size: 25px;
+}
+
+
+.contact-right h5{
+    color: #fff;
+    position: relative;
+    margin-left: 10px;
+}
+.contact-right h5::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    top: 2px;
+    left: -12px;
+    background: #3d68f9;
+}
+
+.contact-right ul{}
+.contact-right ul li{
+    display: block;
+    color: #c0c2ce;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.contact-footer h6{
+    color: #c0c2ce;
+    padding: 20px 0;
+}
